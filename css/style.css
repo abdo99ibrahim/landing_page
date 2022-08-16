@@ -350,15 +350,31 @@ ul {
   /* animation: up-and-down 3s linear infinite; */
 }
 @media (max-width: 991px) {
+  .landing .container{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+    justify-content: flex-end;
+    align-items: center;
+    
+      }
   .landing .img img {
-    display: block;
+    left: -20px;
     width: 400px;
   }
 }
 @media (max-width: 767px) {
+  .landing .container{
+display: flex;
+flex-direction: column-reverse;
+gap: 20px;
+justify-content: flex-end;
+align-items: center;
+
+  }
   .landing .img img {
-    display: block;
-    width: 200px;
+    left: -20px;
+    width: 330px;
   }
 }
 .landing .text {
